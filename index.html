@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  <title>Frontend Mentor | Expenses chart component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div class="w-fit container p-2 gap-2">
+    <div class="heading flex p-2 items-center justify-between rounded-lg w-full">
+      <div>
+        <span>My balance</span>
+      </div>
+      <img src="./images/logo.svg" alt="">
+    </div>
+
+    <div class="bg-white p-3 rounded-lg">
+      <h2 class="h2">Spending - Last 7 days</h2>
+      <div class="flex gap-2 pt-2 h-100px relative">
+        <div class="hov" style="left: -4px;">
+          <div class="black-bar hidden">17.45</div>
+          <div class="bar bar-mon" style="height: 34px;">
+          </div>
+          <span class="week">mon</span>
+        </div>
+        <div class="hov" style="left: 36px;">
+          <div class="black-bar hidden">34.91</div>
+          <div class="bar bar-tue" style="height: 70px;">
+
+          </div>
+          <span class="week">tue</span>
+        </div>
+        <div class="hov" style="left: 76px;">
+          <div class="black-bar hidden">52.36</div>
+          <div class="bar bar-wed" style="height: 104px;">
+
+          </div>
+          <span class="week">wed</span>
+        </div>
+        <div class="hov" style="left: 116px;">
+          <div class="black-bar hidden">31.07</div>
+          <div class="bar bar-thu" style="height: 62px;">
+
+          </div>
+          <span class="week">thu</span>
+        </div>
+        <div class="hov" style="left: 156px;">
+          <div class="black-bar hidden" >23.39</div>
+          <div class="bar bar-fri" style="height: 46px;">
+
+          </div>
+          <span class="week">fri</span>
+        </div>
+        <div class="hov" style="left: 196px;">
+          <div class="black-bar hidden">43.28</div>
+          <div class="bar bar-sat" style="height: 86px;">
+
+          </div>
+          <span class="week">sat</span>
+        </div>
+        <div class="hov" style="left: 236px;">
+          <div class="black-bar hidden" >25.48</div>
+          <div class="bar bar-sun" style="height: 50px;">
+
+          </div>
+          <span class="week">sun</span>
+        </div>
+      </div>
+      
+      <hr/>
+
+      <div class="flex justify-between items-end p-2">
+        <div class="">
+          <span class="week">Total this month</span><br/>
+          <span class="h2 text-xl">$478.33</span>
+        </div>
+        <div>
+          <span class="h2">+2.4%</span><br/>
+          <span class="week">from last month</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>

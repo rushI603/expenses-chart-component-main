@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+}
+body,.container {
+    font-family: 'DM Sans', sans-serif;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(27, 66%, 92%);
+}
+
+.gap-0 {
+    gap: 0;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.p-2 {
+    padding: 10px;
+}
+
+.rounded-lg {
+    border-radius: 20px;
+}
+
+
+.w-full {
+    width: 100%;
+}
+
+.w-fit {
+    width: fit-content;
+}
+
+.bar {
+    height: 100px;
+    position: relative;
+    bottom: 0px;
+    width: 30px;
+    border-radius: 5px;
+    background-color: hsl(10, 79%, 65%);
+}
+
+.heading {
+    background-color: hsl(10, 79%, 65%);   
+}
+
+.gap-2 {
+    gap: 10px;
+
+}
+
+.text-xl {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.relative {
+    position: relative;
+}
+
+.h2 {
+    color: hsl(25, 47%, 15%);
+}
+
+.bar-wed {
+    background-color: hsl(186, 34%, 60%);
+}
+
+.week {
+    font-size: small;
+    color: hsl(28, 10%, 53%);
+}
+
+.bg-white {
+    
+    background-color: hsl(33, 100%, 98%);
+}
+
+.bar:hover {
+    opacity: 0.6;
+}
+
+.pt-2 {
+    padding-top: 10px;
+}
+
+.p-3 {
+    padding: 15px;
+}
+
+.h-100px {
+    height: 130px;
+}
+
+.items-end {
+    align-items: flex-end;
+}
+
+.hov {
+    position: absolute;
+    bottom: 0;
+}
+
+.hov:hover .black-bar {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.black-bar {
+    position: absolute;
+    font-size: 10px;
+    padding:2px;
+    border-radius: 3px;
+    color: hsl(27, 66%, 92%) ;
+    background-color: hsl(25, 47%, 15%);
+    top: -20px;
+    left: 2px;
+}
